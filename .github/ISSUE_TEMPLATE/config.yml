@@ -1,0 +1,9 @@
+# https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#configuring-the-template-chooser
+blank_issues_enabled: false
+contact_links:
+  - name: Questions
+    url: https://ldez.github.io/
+    about: If you have a question, or are looking for advice, please post on our discussions forum!
+  - name: Documentation
+    url: https://ldez.github.io/
+    about: Please take a look to our documenation.
