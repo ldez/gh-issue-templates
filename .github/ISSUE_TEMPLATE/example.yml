@@ -1,0 +1,89 @@
+name: Example Report
+description: Report description
+title: "[example]: "
+labels: [bug, triage]
+#assignees:
+#  - octocat
+
+body:
+  # https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema#markdown
+  - type: markdown
+    attributes:
+      value: |
+        Markdown message (not submited)
+
+  # https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema#textarea
+  - type: textarea
+    id: textarea-simple
+    attributes:
+      label: A simple `textarea`
+      description: Description of a simple `textarea`
+      placeholder: Placeholder of a simple `textarea`
+      # value: "pre-filled value"
+    validations:
+      required: true
+
+  # https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema#textarea
+  - type: textarea
+    id: textarea-codeblock
+    attributes:
+      label: A codeblock `textarea`
+      description: Description of a codeblock `textarea`
+      placeholder: Placeholder of a codeblock `textarea`
+      # value: "pre-filled value"
+      render: shell
+    validations:
+      required: true
+
+  # https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema#input
+  - type: input
+    id: input-simple
+    attributes:
+      label: A simple `input`
+      description: Description of a simple `input`
+      placeholder: Placeholder of a simple `input`
+      # value: "pre-filled value"
+    validations:
+      required: false
+
+  # https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema#dropdown
+  - type: dropdown
+    id: dropdown-simple
+    attributes:
+      label: A simple `dropdown`
+      description: Description of a simple `dropdown`
+      options:
+        - A
+        - B
+        - C
+    validations:
+      required: true
+
+  # https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema#dropdown
+  - type: dropdown
+    id: dropdown-multiple
+    attributes:
+      label: A "multiple" `dropdown`
+      description: Description of a "multiple" `dropdown`
+      multiple: true
+      options:
+        - A
+        - B
+        - C
+        - D
+
+  # https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema#checkboxes
+  - type: checkboxes
+    id: checkboxes-simple
+    attributes:
+      label: A simple `checkboxes`
+      description: Description of a simple `checkboxes`
+      options:
+        - label: Label A
+          required: true
+        - label: Label B
+          required: true
+        - label: Label C
+          required: false
+        - label: Label D
+          required: false
