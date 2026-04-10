@@ -16,6 +16,8 @@ body:
     id: type
     attributes:
       label: How do you use lego?
+      # This is required because of a bug in Issue Forms:
+      # The first option is always selected unless you are using the "multiple" attribute.
       multiple: true
       options:
         - Library
@@ -107,8 +109,10 @@ body:
     id: usage
     attributes:
       label: In which context are you using lego?
+      # This is required because of a bug in Issue Forms:
+      # The first option is always selected unless you are using the "multiple" attribute.
+      multiple: true
       options:
-        - false
         - Personal use
         - Professional use
         - Personal and professional use
@@ -122,7 +126,7 @@ body:
       label: 🌱 Supporting the Maintainer
       options:
         - label: "I find this project useful, and it has saved me time in my workflow/business."
-          required: false
+          required: true
         - label: "I have starred this repository to help other developers find it."
           required: false
 
