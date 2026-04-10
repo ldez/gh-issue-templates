@@ -127,7 +127,7 @@ body:
       options:
         - label: "I find this project useful, and it has saved me time in my workflow/business."
           required: false
-        - label: "I have starred this repository to help other developers find it."
+        - label: "I have [starred](https://github.com/go-acme/lego) this repository to help other developers find it."
           required: false
         - label: "I have [sponsored](https://donate.ldez.dev) this to keep the project stable and maintained."
           required: false
