@@ -117,14 +117,6 @@ body:
       required: true
 
   - type: checkboxes
-    id: validation
-    attributes:
-      label: Validation
-      options:
-        - label: Yes, I've included all the information above (version, usage, etc.).
-          required: true
-
-  - type: checkboxes
     id: value-affirmation
     attributes:
       label: 🌱 Supporting the Maintainer
@@ -142,3 +134,11 @@ body:
         Your support ensures this tool remains a reliable part of your toolkit for years to come.
 
         [Support Project Longevity →](https://donate.ldez.dev)
+
+  - type: checkboxes
+    id: validation
+    attributes:
+      label: Validation
+      options:
+        - label: Yes, I've included all the information above (version, usage, etc.).
+          required: true
