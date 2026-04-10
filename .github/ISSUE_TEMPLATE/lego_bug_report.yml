@@ -16,6 +16,7 @@ body:
     id: type
     attributes:
       label: How do you use lego?
+      default: 0
       options:
         - n/a
         - Library
