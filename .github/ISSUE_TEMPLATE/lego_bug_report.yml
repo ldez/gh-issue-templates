@@ -139,6 +139,29 @@ body:
 
         [Support Project Longevity →](https://donate.ldez.dev)
 
+  - type: dropdown
+    id: need-timeframe
+    attributes:
+      label: Release Timeframe Requirement
+      description: Do you want your request to be released in a specific timeframe?
+      multiple: true
+      options:
+        - 'Yes'
+        - 'No'
+    validations:
+      required: true
+  - type: dropdown
+    id: release-priority
+    attributes:
+      label: Release Priority
+      description: >-
+        Your request, if possible to do it, we should be released (after
+        implementation, review, and merge)
+      options:
+        - Without any specific timeframe.
+        - in 1 week (7 days) maximum. Requires [High priority tier](https://github.com/sponsors/ldez/sponsorships?tier_id=65286&preview=false)
+        - in 2 days maximum. Requires [Critical priority tier](https://github.com/sponsors/ldez/sponsorships?tier_id=65289&preview=false)
+
   - type: checkboxes
     id: validation
     attributes:
