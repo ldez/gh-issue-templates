@@ -150,18 +150,19 @@ body:
         - 'No'
     validations:
       required: true
-  - type: dropdown
+  - type: checkboxes
     id: release-priority
     attributes:
       label: Release Priority
-      description: >-
-        Your request, if possible to do it, we should be released (after
-        implementation, review, and merge)
+      description: Your request, if possible to do it, we should be released (after implementation, review, and merge)
       options:
-        - Without any specific timeframe.
-        - in 1 week (7 days) maximum. Requires [High priority tier](https://github.com/sponsors/ldez/sponsorships?tier_id=65286&preview=false)
-        - in 2 days maximum. Requires [Critical priority tier](https://github.com/sponsors/ldez/sponsorships?tier_id=65289&preview=false)
-
+        - label: Without any specific timeframe.
+          required: false
+        - label: in 1 week (7 days) maximum. Requires [High priority tier](https://github.com/sponsors/ldez/sponsorships?tier_id=65286&preview=false)
+          required: false
+        - label: In 2 days maximum. Requires [Critical priority tier](https://github.com/sponsors/ldez/sponsorships?tier_id=65289&preview=false)
+          required: false
+  
   - type: checkboxes
     id: validation
     attributes:
