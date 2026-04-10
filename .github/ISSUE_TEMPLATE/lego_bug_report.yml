@@ -17,9 +17,7 @@ body:
     attributes:
       label: How do you use lego?
       multiple: true
-      default: 0
       options:
-        - n/a
         - Library
         - Binary
         - Docker image
