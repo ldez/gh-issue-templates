@@ -126,7 +126,7 @@ body:
       label: 🌱 Supporting the Maintainer
       options:
         - label: "I find this project useful, and it has saved me time in my workflow/business."
-          required: true
+          required: false
         - label: "I have starred this repository to help other developers find it."
           required: false
 
