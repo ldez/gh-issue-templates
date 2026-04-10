@@ -108,7 +108,7 @@ body:
     attributes:
       label: In which context are you using lego?
       options:
-        - I don't know
+        - false
         - Personal use
         - Professional use
         - Personal and professional use
