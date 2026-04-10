@@ -17,7 +17,7 @@ body:
     attributes:
       label: How do you use lego?
       options:
-        - n/a
+        - I don't know
         - Library
         - Binary
         - Docker image
@@ -130,7 +130,7 @@ body:
       label: 🌱 Supporting the Maintainer
       options:
         - label: "I find this project useful, and it has saved me time in my workflow/business."
-          required: true
+          required: false
         - label: "I have starred this repository to help other developers find it."
           required: false
 
