@@ -139,17 +139,6 @@ body:
 
         [Support Project Longevity →](https://donate.ldez.dev)
 
-  - type: dropdown
-    id: need-timeframe
-    attributes:
-      label: Release Timeframe Requirement
-      description: Do you want your request to be released in a specific timeframe?
-      multiple: true
-      options:
-        - 'Yes'
-        - 'No'
-    validations:
-      required: true
   - type: checkboxes
     id: release-priority
     attributes:
