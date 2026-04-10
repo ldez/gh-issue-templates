@@ -16,6 +16,7 @@ body:
     id: type
     attributes:
       label: How do you use lego?
+      default: -1
       options:
         - I don't know
         - Library
@@ -32,7 +33,6 @@ body:
         - Through Traefik
         - Through Zoraxy
         - Other (please explain)
-    default: 100
     validations:
       required: true
 
