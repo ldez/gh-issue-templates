@@ -19,7 +19,7 @@ body:
       multiple: true
       default: 0
       options:
-        - I don't know
+        - None
         - Library
         - Binary
         - Docker image
