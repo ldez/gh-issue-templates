@@ -129,6 +129,13 @@ body:
           required: false
         - label: "I have starred this repository to help other developers find it."
           required: false
+        - label: |
+            To keep the project stable and ensure I can continue responding to issues quickly, please consider **[sponsoring my work](https://donate.ldez.dev)**.
+            
+            Your support ensures this tool remains a reliable part of your toolkit for years to come.
+    
+            [Support Project Longevity →](https://donate.ldez.dev)
+          required: false
 
   - type: markdown
     attributes:
