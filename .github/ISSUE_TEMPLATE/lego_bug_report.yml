@@ -16,7 +16,7 @@ body:
     id: type
     attributes:
       label: How do you use lego?
-      default: -1
+      default: 100
       options:
         - I don't know
         - Library
