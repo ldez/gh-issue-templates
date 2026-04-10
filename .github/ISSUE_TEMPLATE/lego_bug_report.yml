@@ -32,7 +32,7 @@ body:
         - Through Traefik
         - Through Zoraxy
         - Other (please explain)
-    default: -1
+    default: 100
     validations:
       required: true
 
