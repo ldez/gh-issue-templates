@@ -135,8 +135,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        To ensure I can continue responding to issues quickly, please consider **[sponsoring my work](https://donate.ldez.dev)**.
-        
         Your support ensures this tool remains a reliable part of your toolkit for years to come.
 
         [Support Project Longevity →](https://donate.ldez.dev)
