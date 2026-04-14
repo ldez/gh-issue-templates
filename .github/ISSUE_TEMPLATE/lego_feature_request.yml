@@ -1,6 +1,14 @@
 name: Feature request (lego)
 description: Suggest an idea for this project.
 body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!WARNING]
+        > test
+        > jdslqkd
+
+        The detectors are not allowed because of the number of false positives.
   - type: checkboxes
     id: terms
     attributes:
