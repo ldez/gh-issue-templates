@@ -1,6 +1,32 @@
 name: Feature request (lego)
 description: Suggest an idea for this project.
 body:
+  - type: dropdown
+    id: license
+    attributes:
+      label: Analyzer License
+      description: AGPL is not allowed.
+      multiple: true
+      required: true
+      options:
+        - No License
+        - MIT
+        - Apache-2.0
+        - BSD-3-Clause
+        - ISC
+        - MPL-2.0
+        - EPL-2.0
+        - GPL-2.0-only
+        - GPL-3.0-only
+  - type: checkboxes
+    id: license-check
+    attributes:
+      label: Analyzer License Checks
+      options:
+        - label: The file must start with `LICENSE` (capitalized).
+          required: true
+        - label: 'The file(s) must contain the required information by the license, e.g.: author, year, etc.'
+          required: true
   - type: markdown
     attributes:
       value: |
