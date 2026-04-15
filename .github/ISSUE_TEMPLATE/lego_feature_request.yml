@@ -3,12 +3,12 @@ description: Suggest an idea for this project.
 body:
   - type: dropdown
     id: license
+    validations:
+      required: true
     attributes:
       label: Analyzer License
       description: AGPL is not allowed.
       multiple: true
-      validations:
-        required: true
       options:
         - No License
         - MIT
