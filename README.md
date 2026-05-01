@@ -1,6 +1,8 @@
 # gh-issue-templates
 
-For testing purpose only
+For testing purpose only.
+
+Documentation:
 
 - [announcement](https://github.blog/changelog/2021-06-23-issues-forms-beta-for-public-repositories/)
 - [creating-issue-forms](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#creating-issue-forms)
