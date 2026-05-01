@@ -3,9 +3,9 @@ description: Suggest an idea for this project.
 body:
   - type: dropdown
     id: license
+    multiple: true
     validations:
       required: true
-      foo: 2
     attributes:
       label: Analyzer License
       description: AGPL is not allowed.
