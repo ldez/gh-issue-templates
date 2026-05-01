@@ -5,10 +5,10 @@ body:
     id: license
     validations:
       required: true
+      default: 2
     attributes:
       label: Analyzer License
       description: AGPL is not allowed.
-      multiple: true
       options:
         - No License
         - MIT
