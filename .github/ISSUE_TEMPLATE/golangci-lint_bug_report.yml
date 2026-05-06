@@ -1,6 +1,6 @@
 name: Bug Report (golangci-lint)
 description: Create a report to help us improve.
-labels: [bug, documentation]
+labels: [bug, documentation, enhancement]
 body:
   - type: checkboxes
     id: terms
